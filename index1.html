@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tic-Tac-Toe Game</title>
+  <link rel="stylesheet" href="style1.css" />
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li id="one_p">One-Player</li>
+      <li id="multi_p">Multi-Player</li>
+    </ul>
+    <p id="modeStatus"> </p>
+  </nav>
+
+  <div class="hide" id="msg">Winner</div>
+
+  <main>
+    <h1>Tic-Tac-Toe</h1>
+    <p id="turn">Turn : O</p>
+    <div class="container">
+      <div class="game">
+        <button class="box" id="box-0"> </button>
+        <button class="box" id="box-1"> </button>
+        <button class="box" id="box-2"> </button>
+        <button class="box" id="box-3"> </button>
+        <button class="box" id="box-4"> </button>
+        <button class="box" id="box-5"> </button>
+        <button class="box" id="box-6"> </button>
+        <button class="box" id="box-7"> </button>
+        <button class="box" id="box-8"> </button>
+      </div>
+    </div>
+
+    <div class="score_b">
+        <h1 id="player1">
+            Player O
+            <p id="score1"></p>
+        </h1>
+        <h1 id="player2">
+            Player X
+            <p id="score2"></p>
+        </h1>
+    </div>
+
+    <button id="reset_Btn">Reset Game</button>
+    <button id="new_Btn">New Game</button>
+  </main>
+
+  <script src="script1.js"></script>
+</body>
+
+</html>
